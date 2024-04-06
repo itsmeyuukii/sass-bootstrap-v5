@@ -1,0 +1,39 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.services {
+    position: relative;
+    padding: 1rem;
+
+    &__content {
+        padding: 1rem;
+        margin-top: 0rem;
+
+        p {
+            font-size: 0.8rem;
+            
+            @include media-breakpoint-up(lg) {
+                font-size: 1rem;
+            }
+        }
+
+        @include media-breakpoint-up(lg) {
+            margin-top: 5rem;
+        }
+
+        .icon {
+            display: block;
+            font-size: 1.5rem;
+            @include textGradient;
+
+            @include media-breakpoint-up(lg) {
+                font-size: 2.5rem;
+            }
+        }
+    }
+    &__pic {
+        max-width: 100%;
+        
+    }
+    
+}

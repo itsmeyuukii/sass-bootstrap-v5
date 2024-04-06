@@ -32,5 +32,18 @@ $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w
 // $navbar-padding-x:                  9.25rem !default;
 $navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$primary}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
 $navbar-light-toggler-border-color: rgba($primary, .15) !default;
+
+// MERGE THEME COLORS
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+
+$custom-theme-colors: (
+    "third": $third,
+    "fourth": $fourth
+);
+
+$theme-colors: map-merge($custom-theme-colors , $theme-colors );
+
+
 //IMPORT BOOTSTRAP
 @import "../node_modules/bootstrap/scss/bootstrap.scss"

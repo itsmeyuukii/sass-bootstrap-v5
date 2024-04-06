@@ -67,3 +67,9 @@ Created Readme.md by Gerard Yabut for step by step and for Learning and record e
 12. add it to your html
     - link the css folder 'assets/vendors/glightbox/css/glightbox.css'
     - link the js folder 'assets/vendors/glightbox/js/glightbox.js
+
+13. Add my custom Theme colors in _custom.scss
+    - call @import '../node_modules./bootstrap/scss/functions'
+    - call @import '../node_modules/bootstrap/scss/variables'
+    - add your "custom-theme-color"
+    - map-merge the the theme-colors and your custom-theme-colors

@@ -5,8 +5,8 @@
     background: linear-gradient(to right, rgba($primary, 0.95),rgba($secondary, 0.95), rgba($fourth, 0.95));
 }
 
-@mixin text-gradient {
-    background: linear-gradient(to right, rgba($third, 0.95),rgba($primary, 0.95));
+@mixin textGradient {
+    background: linear-gradient(to right, rgba($primary, 0.95),rgba($secondary, 0.95));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

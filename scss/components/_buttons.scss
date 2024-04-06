@@ -4,15 +4,15 @@
 .btn-rounded {
     //to add media-break 
     //use up to set min-width and down to max-width
-    @include media-breakpoint-down(sm){
+    @include media-breakpoint-down(md){
         display: none;
     }
     position: relative;
     padding: 0.9375rem 4.375rem 1.2rem 1.2rem;
     font-weight: 700;
     margin: 0;
-    border: none;
-    border-radius: 0.1rem solid rgba($white, 0.6);
+    border-radius: 0.1rem;
+    border: 0.1rem solid rgba($white, 0.6);
     background-color: $white;
 
     span {
