@@ -12151,6 +12151,10 @@ textarea.form-control-lg {
   }
 }
 
+.gradient {
+  background: linear-gradient(to right, rgba(59, 95, 253, 0.95), rgba(201, 141, 164, 0.95), rgba(255, 181, 117, 0.95));
+}
+
 .menu {
   background: linear-gradient(to right, rgba(59, 95, 253, 0.95), rgba(201, 141, 164, 0.95), rgba(255, 181, 117, 0.95));
 }
@@ -12165,6 +12169,40 @@ textarea.form-control-lg {
 
 .navbar-primary {
   color: #3B5FFD;
+}
+
+.get-started {
+  padding: 4rem 0;
+  background-color: #e9ecef;
+}
+
+.cta-info {
+  padding: 3rem;
+  margin: 1rem 0;
+}
+.cta-info__list {
+  position: relative;
+  list-style-type: none;
+  display: block;
+}
+.cta-info__list li::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f00c";
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.form {
+  padding: 3rem;
+}
+.form button {
+  border: none;
+  color: #3B5FFD;
+}
+.form a {
+  color: #3B5FFD;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .intro-section {
